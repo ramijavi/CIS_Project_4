@@ -1,0 +1,10 @@
+public abstract class Person {
+	protected int cashiersTime;
+	protected int leaveTime;
+	protected int eateryTime;
+	
+	public abstract void setCashiersTime (int Time);
+	public abstract void setLeaveTime (int Time);
+	public abstract void setEateryTime (int Time);
+
+}
